@@ -1,4 +1,3 @@
-::: {align="center"}
 # 🌾 CropCompass
 
 ### Crop Recommendation System Using Machine Learning
@@ -211,8 +210,8 @@ Replace the placeholder URL below with the URL of your GitHub
 repository.
 
 ``` bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd CropCompass_Crop_Recommendation_System_Using_ML
+git clone https://github.com/kaustubhkladda/CropCompass_Crop_Recommendation_System.git
+cd CropCompass_Crop_Recommendation_System
 ```
 
 ### 2. Create and activate a virtual environment
@@ -297,6 +296,9 @@ through an interactive application.
 
 **Kaustubh Ladda**
 
+- **GitHub:** @kaustubhkladda
+- **Project Repository:** CropCompass — Crop Recommendation System
+- **Live Application:** [CropCompass on Streamlit](<https://cropcompass-crop-recommendation-system.streamlit.app/>)
 ------------------------------------------------------------------------
 
 If you find this project useful, consider giving the repository a ⭐ on

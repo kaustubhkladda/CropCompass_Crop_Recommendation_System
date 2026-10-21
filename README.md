@@ -15,22 +15,26 @@ nutrients and environmental conditions, while helping users understand
 the model's predictions.**
 :::
 
+🌐 **Live Demo:** [Launch CropCompass](https://cropcompass-crop-recommendation-system.streamlit.app/)
+
+💻 **Deployment Repository:** [CropCompass on GitHub](https://github.com/kaustubhkladda/CropCompass_Crop_Recommendation_System_Using_ML)
+
+📊 **ML Analysis Repository:** [CropCompass — Crop Recommendation System](https://github.com/kaustubhkladda/CropCompass_Crop_Recommendation_System)
+
 ------------------------------------------------------------------------
 
 ## 📌 About the Project
 
-**CropCompass** is a machine learning project that recommends a crop
-based on seven soil and climate parameters. It uses a multiclass
-**LightGBM classifier** trained on a crop recommendation dataset
-containing 2,200 records across 22 crop classes.
+**CropCompass** is a machine learning project that recommends crops based on seven soil and climate parameters. It uses a multiclass **LightGBM classifier** trained on a crop recommendation dataset containing 2,200 records across 22 crop classes.
 
-The project includes a Jupyter Notebook for data exploration, model
-development, evaluation, and explainability, along with a Streamlit
-application for interactive predictions and model analysis.
+The project includes data exploration, model development, evaluation, explainability, and an interactive Streamlit application for crop predictions and model analysis.
 
-> **Project note:** This repository contains the project source code and
-> analysis. It is not itself the deployment repository. The Streamlit
-> app can be run locally by following the instructions below.
+### 📁 Project Repositories
+
+- **Deployment Repository:** [CropCompass_Crop_Recommendation_System_Using_ML](https://github.com/kaustubhkladda/CropCompass_Crop_Recommendation_System_Using_ML) — Contains the Streamlit application and deployment-related files.
+- **ML Analysis Repository:** [CropCompass_Crop_Recommendation_System](https://github.com/kaustubhkladda/CropCompass_Crop_Recommendation_System) — Contains the Jupyter Notebook, dataset, visualizations, and machine learning analysis.
+
+The live application is hosted on Streamlit Community Cloud.
 
 ## ✨ Key Features
 
@@ -204,53 +208,55 @@ CropCompass_Crop_Recommendation_System_Using_ML/
 
 ## ⚙️ Run Locally
 
-### 1. Clone the repository
+### 1. Clone the Deployment Repository
 
-Replace the placeholder URL below with the URL of your GitHub
-repository.
-
-``` bash
-git clone https://github.com/kaustubhkladda/CropCompass_Crop_Recommendation_System.git
-cd CropCompass_Crop_Recommendation_System
+```bash
+git clone https://github.com/kaustubhkladda/CropCompass_Crop_Recommendation_System_Using_ML.git
+cd CropCompass_Crop_Recommendation_System_Using_ML
 ```
 
-### 2. Create and activate a virtual environment
+### 2. Create and Activate a Virtual Environment
 
 **Windows**
 
-``` bash
+```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
 **macOS / Linux**
 
-``` bash
+```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-### 3. Install dependencies
+### 3. Install Dependencies
 
-``` bash
+```bash
 pip install -r requirements.txt
 ```
 
-### 4. Start the Streamlit application
+### 4. Run the Streamlit Application
 
-``` bash
+```bash
 streamlit run app.py
 ```
 
-Streamlit will display a local URL in the terminal. Open that URL in
-your browser.
+Streamlit will display a local URL in the terminal. Open that URL in your browser.
 
-### 5. Run the notebook
+> Ensure the deployment repository contains `requirements.txt` and `app.py`. If the filenames differ, use the actual filenames in that repository.
 
-To explore the analysis and model development, open
-`crop_recommendation_system.ipynb` in Jupyter Notebook, JupyterLab, or
-Google Colab. Ensure the CSV file is available at the path expected by
-the notebook.
+### 5. Run the Jupyter Notebook
+
+Clone the ML analysis repository:
+
+```bash
+git clone https://github.com/kaustubhkladda/CropCompass_Crop_Recommendation_System.git
+cd CropCompass_Crop_Recommendation_System
+```
+
+Open `crop_recommendation_system.ipynb` using Jupyter Notebook, JupyterLab, or Google Colab. Ensure the CSV file is available at the path expected by the notebook.
 
 ## 📦 Dependencies
 
@@ -292,13 +298,16 @@ preparing agricultural data, comparing classification models, evaluating
 performance, explaining predictions with SHAP, and presenting results
 through an interactive application.
 
+
 ## 👨‍💻 Author
 
 **Kaustubh Ladda**
 
-- **GitHub:** @kaustubhkladda
-- **Project Repository:** CropCompass — Crop Recommendation System
-- **Live Application:** [CropCompass on Streamlit](<https://cropcompass-crop-recommendation-system.streamlit.app/>)
+- **GitHub:** [@kaustubhkladda](https://github.com/kaustubhkladda)
+- **Deployment Repository:** [CropCompass — Streamlit App](https://github.com/kaustubhkladda/CropCompass_Crop_Recommendation_System_Using_ML)
+- **ML Analysis Repository:** [CropCompass — Crop Recommendation System](https://github.com/kaustubhkladda/CropCompass_Crop_Recommendation_System)
+- **Live Application:** [Launch CropCompass](https://cropcompass-crop-recommendation-system.streamlit.app/)
+
 ------------------------------------------------------------------------
 
 If you find this project useful, consider giving the repository a ⭐ on
